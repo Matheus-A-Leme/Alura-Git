@@ -14,33 +14,33 @@ git add index.html = Comando para Adicionar o arquivo index.html para ele ser mo
 
 git add . = Comando para que todos os arquivos da pasta atual sejam monitorados ;
 
-git rm = Comando para remover o arquivo e para que o mesmo deixe de ser monitorado ;
+git rm 					Comando para remover o arquivo e para que o mesmo deixe de ser monitorado ;
 
-git commit -m  = Comando serve para passarmos uma mensagem de commit, que será incluído entre aspas ;
+git commit -m   			Comando serve para passarmos uma mensagem de commit, que será incluído entre aspas ;
 
-clear = Comando para limpar a tela ;
+clear  					Comando para limpar a tela ;
 
-git config  = Comando para Mudar algumas Configurações ;
+git config   				Comando para Mudar algumas Configurações ;
 
-git config --local = Comando para alterar as configurações para cada Projeto ;
+git config --local  			Comando para alterar as configurações para cada Projeto ;
 
-git config --global = Comando para alterar as configurações para a máquina toda;
+git config --global    		 	Comando para alterar as configurações para a máquina toda;
 
-git log = Comando  que mostrará diversas informações, sendo o primeiro deles um hash do commit, uma identificação única de cada commit, isto é, não existem dois commits com o mesmo hash.
+git log 				Comando  que mostrará diversas informações, sendo o primeiro deles um hash do commit, uma identificação única de cada commit, isto é, não existem dois commits com o mesmo hash.
 
-git log --help = Comando para ver algumas das opções possíveis.
+git log --help 			        Comando para ver algumas das opções possíveis;
 
-git log --oneline = Comando para mostrar as diversas informações em uma unica linha ;
+git log --oneline 		        Comando para mostrar as diversas informações em uma unica linha ;
 
-git log -p = Comando para mostrar + informações  como as alterações do commit ;
+git log -p 			        Comando para mostrar + informações  como as alterações do commit ;
 
-git log --pretty="format:%H" = Comando que nos traz apenas o hash ; 
+git log --pretty="format:%H"		Comando que nos traz apenas o hash ; 
 
-git log --pretty="format:%h %s" = Comando que traz o hash resumido seguido pela mensagem do commit ;
+git log --pretty="format:%h %s"		Comando que traz o hash resumido seguido pela mensagem do commit ;
 
-git log --pretty="format:%h %s %ae" = Comando que traz o hash resumido seguido pela mensagem do commit e o email do autor ;
+git log --pretty="format:%h %s %ae"	Comando que traz o hash resumido seguido pela mensagem do commit e o email do autor ;
 
-
+git init --bare  =  			Comando para trazer o parâmetro indica que este repositório é puro, que contém apenas as alterações dos arquivos, e não uma cópia física de cada um dos arquivos.
 
 
 
